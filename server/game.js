@@ -185,10 +185,10 @@ class gameServer {
         this.wsServer = new ws.WebSocketServer({ noServer: true });
         // Create the http server
         this.httpServer = http.createServer((req, res) => {
-            res.setHeader('Access-Control-Allow-Origin', '*');
-            res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
-            res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
-            const { pathname, query } = url.parse(req.url, true);
+            res.setHeader("Access-Control-Allow-Origin", "*");
+            res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
+            res.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
+            const { pathname, query } = new URL(req.url, `http://${req.headers.host}`);
             switch (pathname) {
                 case "/api/sendPlayer": {
                     if (query.api_key !== process.env.API_KEY) {
