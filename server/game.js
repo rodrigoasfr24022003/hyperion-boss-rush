@@ -29,7 +29,7 @@ const getName = (name, gamemodeData) => {
 
     // TDM
         tdm: `${gamemodeData.teams}TDM`,
-            open_tdm: `Open ${gamemodeData.teams}TDM`,
+                open_tdm: `Open ${gamemodeData.teams}TDM`,
         tetromino: `${gamemodeData.teams} Team Tetromino`,
 
     // Minigames
@@ -82,11 +82,11 @@ const getName = (name, gamemodeData) => {
         //manhunt: "Manhunt",
         march_madness: "March Madness",
         maze: "Maze",
-            //labyrinth: "Labyrinth",
-                //old_labyrinth: "Old Labyrinth",
-            //magic_maze: "Magic Maze",
-            rock: "Rock",
-                //pumpkin_patch: "Pumpkin Patch",
+        //labyrinth: "Labyrinth",
+            //old_labyrinth: "Old Labyrinth",
+        //magic_maze: "Magic Maze",
+        rock: "Rock",
+        //pumpkin_patch: "Pumpkin Patch",
         outbreak: "Outbreak",
         portal: "Portal",
         retrograde: "Retrograde",
