@@ -37,169 +37,18 @@ module.exports = {
         properties  - This overrides other settings in this file, assuming the selected gamemode doesn't also override it.
     */
 
-    servers: [
-        {
-            share_client_server: false,
-            host: 'localhost:4000',
-            port: 4000,
-            id: 'c',
-
-            region: "Local",
-            serverhost: "Local",
-            location: "Localhost",
-            gamemode: ['tdm'],
-            player_cap: 80,
-
-            featured: false,
-            unlisted: true,
-            private: false,
-
-            properties: {
-
-            }
-        },
-        {
-            share_client_server: false,
-            host: 'localhost:5050',
-            port: 5050,
-            id: 'x',
-
-            region: "Local",
-            serverhost: "Local",
-            location: "Localhost",
-            gamemode: ['arms_race', 'ffa'],
-            player_cap: 80,
-
-            featured: false,
-            unlisted: false,
-            private: true,
-
-            properties: {
-
-            }
-        },
-        {
-            share_client_server: false,
-            host: 'localhost:3001',
-            port: 3001,
-            id: 'la',
-
-            region: "Local",
-            serverhost: "Local",
-            location: "Localhost",
-            gamemode: ['ffa'],
-            player_cap: 80,
-
-            featured: false,
-            unlisted: false,
-            private: false,
-
-            properties: {
-                bot_cap: 20,
-                daily_tank: {
-                    tank: 'whirlwind',
-                    tier: 3,
-                    ads: true,
-                    ad_sources: [
-                        {
-                            file: 'example_video_ad.mp4',
-                            use_regular_ad_size: true
-                        },
-                        {
-                            file: 'example_image_ad.png',
-                            use_regular_ad_size: true
-                        }
-                    ]
-                }
-            }
-        },
-        {
-            share_client_server: false,
-            host: 'localhost:3002',
-            port: 3002,
-            id: 'lb',
-
-            region: "Local",
-            serverhost: "Local",
-            location: "Localhost",
-            gamemode: ['maze'],
-            player_cap: 80,
-
-            featured: false,
-            unlisted: false,
-            private: false,
-
-            properties: {
-                allow_server_travel: true
-            }
-        },
-        {
-            share_client_server: false,
-            host: 'localhost:3003',
-            port: 3003,
-            id: 'lc',
-
-            region: "Local",
-            serverhost: "Local",
-            location: "Localhost",
-            gamemode: ['tdm'],
-            player_cap: 80,
-
-            featured: false,
-            unlisted: false,
-            private: false,
-
-            properties: {
-                teams: 2,
-                bot_cap: 40,
-                server_travel_properties: {
-                    loop_interval: 10_000, // how often the portal loop executes in seconds
-                    portals: 1, // amount of portals to spawn
-                },
-                server_travel: [
-                    {
-                        ip: 'localhost:3002', // destination server host, don't add "https://" or any slashes to it
-                        portal_properties: {
-                            spawn_chance: 3, // chance for a portal to spawn somewhere in the map each loop iteration (higher = lower chances, lower = higher chance)
-                            color: 'red', // portal color
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            share_client_server: false,
-            host: 'localhost:3004',
-            port: 3004,
-            id: 'ld',
-
-            region: "Local",
-            serverhost: "Local",
-            location: "Localhost",
-            gamemode: ['mothership'],
-            player_cap: 80,
-
-            featured: false,
-            unlisted: false,
-            private: false,
-
-            properties: {
-                mothership_time_limit: 30_000,
-                teams: 3,
-                bot_cap: 30
-            }
-        },
+    servers: [,
         {
             share_client_server: false,
             host: 'localhost:3099',
             port: 3099,
-            id: 'lz',
+            id: 'sbx',
 
             region: "Local",
             serverhost: "Local",
             location: "Localhost",
             gamemode: ['sandbox'],
-            player_cap: 80,
+            player_cap: 10,
 
             featured: false,
             unlisted: false,
@@ -219,7 +68,7 @@ module.exports = {
             serverhost: "Local",
             location: "Localhost",
             gamemode: ['hyperion_boss_rush'],
-            player_cap: 80,
+            player_cap: 10,
 
             featured: false,
             unlisted: false,
