@@ -1,4 +1,4 @@
-# Open Source Arras
+# Hyperion Boss Rush
 
 <img alt="Logo" src="public/img/round.png" width="100"/>
 
@@ -7,7 +7,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/open-source-arras/open-source-arras)
 
 > [!WARNING]
-> **Open Source Arras is beta software.** This build is **not** representative of the final product. Expect bugs and missing features.
+> **This is a fork of Open Source Arras, which is beta software.** This build is **not** representative of the final product. Expect bugs and missing features.
 > 
 > If you want to stay up to date, create a fork, download a git client (such as GitHub Desktop), and sync the fork whenever there's a major update. **Major updates may introduce breaking changes that alter how certain things work. It is *your responsibility* to keep your private server up-to-date and functioning!**
 
@@ -51,9 +51,7 @@ server_travel: [
 > [!NOTE]
 > Make sure to set `allow_server_travel` to true in your destination server's `properties`.
 
-## Other Links
-- [Stoat](https://stt.gg/S4tqfeAK)
-- [Discord](https://discord.gg/arras)
-- [YouTube](https://www.youtube.com/@OpenSourceArras)
+> [!WARNING]
+> There will be no public Hyperion Boss Rush server, this is only the source code so you can host it for yourself!
 
-*p.s. if something goes terribly wrong it's not our fault*
+*p.s. if something goes terribly wrong it's not mine nor the OSA devs' fault*
