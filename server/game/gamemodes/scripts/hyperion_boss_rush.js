@@ -1,7 +1,14 @@
 class HyperionBossRush  {
     constructor() {
         this.room = global.gameManager.room;
-        this.waves = [ran.choose([["hyperion_mk0","hyperion_mk0"],["hyperion_mkhalf","hyperion_mk1"]]),["crius_mk1","not_crius_mk1"],["orthogon_mk1","hyperion_mk0","hyperion_mk0"],["hyperion_mk1f","hyperion_mk1f"],["hyperion_mk1r","hyperion_mk1g","hyperion_mk1b"],["hyperion_mk1f","hyperion_mk1f","hyperion_mk1f","hyperion_mk1f","hyperion_mk1f","hyperion_mk1f"],["hyperion_mk1r","hyperion_mk1r","hyperion_mk1g","hyperion_mk1g","hyperion_mk1b","hyperion_mk1b"],["not_crius_mk1","not_crius_mk1","not_crius_mk1","not_crius_mk1","hyperion_mk1r","hyperion_mk1r","hyperion_mk1r"]];
+        this.waves = [ran.choose([["hyperion_mk0","hyperion_mk0"],["hyperion_mkhalf","hyperion_mk1"]]),
+        ["crius_mk1","not_crius_mk1"],
+        ["orthogon_mk1","hyperion_mk0","hyperion_mk0"],
+        ["hyperion_mk1f","hyperion_mk1f"],
+        ["hyperion_mk1r","hyperion_mk1g","hyperion_mk1b"],
+        ["hyperion_mk1f","hyperion_mk1f","hyperion_mk1f","hyperion_mk1f","hyperion_mk1f","hyperion_mk1f"],
+        ["hyperion_mk1r","hyperion_mk1r","hyperion_mk1g","hyperion_mk1g","hyperion_mk1b","hyperion_mk1b"],
+        ["not_crius_mk1","not_crius_mk1","not_crius_mk1","not_crius_mk1","hyperion_mk1r","hyperion_mk1r","hyperion_mk1r"]];
     }
     defineProperties() {
         this.length = Config.wave_cap;
