@@ -25,7 +25,7 @@ module.exports = [
         key: process.env.BETA_TESTER3,
         level: 2,
         class: "menu_betaTester",
-        nameColor: "#ffffff",
+        nameColor: "#fe7e6e",
         note: "note here"
     },
     {
