@@ -75,7 +75,8 @@ class Gun extends EventEmitter {
                 this.canShoot = true;
                 this.label = info.PROPERTIES.LABEL ?? "";
                 this.setBulletType(info.PROPERTIES.TYPE);
-            }
+            };
+            //this.skin = info.PROPERTIES.SKIN ?? 1
         }
         let position = info.POSITION;
         if (Array.isArray(position)) {

@@ -914,5 +914,8 @@ module.exports = {
     },
     noRecoil: {
         recoil: 0
+    },
+    doubleReload: {
+        reload: 0.5
     }
 };

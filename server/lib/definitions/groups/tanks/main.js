@@ -142,7 +142,7 @@ Class.sniper = {
             }
         }
     ],
-    UPGRADES_TIER_2: ["assassin", "hunter", "minigun", "rifle"],
+    UPGRADES_TIER_2: ["assassin", "hunter", "minigun", "rifle", "chiller", "acid"],
     UPGRADES_TIER_3: ["bushwhacker"]
 };
 Class.trapper = {
@@ -3831,6 +3831,198 @@ Class.xHunter = {
                 LENGTH: 12.5,
                 WIDTH: 11,
                 ASPECT: -1.65
+            }
+        }
+    ]
+};
+
+Class.chiller = {
+    PARENT: "genericTank",
+    LABEL: "Chiller",
+    BODY: {
+        FOV: 1.2 * base.FOV
+    },
+    GUNS: [
+        {
+            POSITION: {
+                LENGTH: 24,
+                WIDTH: 8
+            },
+            PROPERTIES: {
+                SHOOT_SETTINGS: combineStats([g.basic, g.sniper]),
+                TYPE: "icebullet"
+            }
+        },
+        {
+            POSITION: {
+                LENGTH: 15,
+                WIDTH: 5
+            },
+            PROPERTIES: {
+                COLOR: "#28B1DE"
+            }
+        }
+    ],
+    UPGRADES_TIER_3: ["freezer", "nitrogen"]
+};
+
+Class.acid = {
+    PARENT: "genericTank",
+    LABEL: "Acid",
+    BODY: {
+        FOV: 1.2 * base.FOV
+    },
+    GUNS: [
+        {
+            POSITION: {
+                LENGTH: 24,
+                WIDTH: 8
+            },
+            PROPERTIES: {
+                SHOOT_SETTINGS: combineStats([g.basic, g.sniper]),
+                TYPE: "poisonbullet"
+            }
+        },
+        {
+            POSITION: {
+                LENGTH: 15,
+                WIDTH: 5
+            },
+            PROPERTIES: {
+                COLOR: "green"
+            }
+        }
+    ],
+    UPGRADES_TIER_3: ["disintegrator", "mercury"]
+};
+
+Class.nitrogen = {
+    PARENT: "genericTank",
+    LABEL: "Nitrogen",
+    BODY: {
+        FOV: 1.2 * base.FOV
+    },
+    GUNS: [
+        {
+            POSITION: {
+                LENGTH: 24,
+                WIDTH: 8
+            },
+            PROPERTIES: {
+                SHOOT_SETTINGS: combineStats([g.basic, g.sniper]),
+                TYPE: "iceplusbullet"
+            }
+        },
+        {
+            POSITION: {
+                LENGTH: 20,
+                WIDTH: 5
+            },
+            PROPERTIES: {
+                COLOR: "#28B1DE"
+            }
+        }
+    ]
+};
+
+Class.mercury = {
+    PARENT: "genericTank",
+    LABEL: "Mercury",
+    BODY: {
+        FOV: 1.2 * base.FOV
+    },
+    GUNS: [
+        {
+            POSITION: {
+                LENGTH: 24,
+                WIDTH: 8
+            },
+            PROPERTIES: {
+                SHOOT_SETTINGS: combineStats([g.basic, g.sniper]),
+                TYPE: "poisonplusbullet"
+            }
+        },
+        {
+            POSITION: {
+                LENGTH: 20,
+                WIDTH: 5
+            },
+            PROPERTIES: {
+                COLOR: "green"
+            }
+        }
+    ]
+};
+
+Class.freezer = {
+    PARENT: "genericTank",
+    LABEL: "Freezer",
+    DANGER: 6,
+    BODY: {
+        FOV: 1.375 * base.FOV
+    },
+    GUNS: [
+        {
+            POSITION: {
+                LENGTH: 27,
+                WIDTH: 8
+            },
+            PROPERTIES: {
+                SHOOT_SETTINGS: combineStats([g.basic, g.sniper, g.assassin]),
+                TYPE: "ice2bullet"
+            }
+        },
+        {
+            POSITION: {
+                LENGTH: 16,
+                WIDTH: 8
+            },
+            PROPERTIES: {
+                COLOR: "#28B1DE"
+            }
+        },
+        {
+            POSITION: {
+                LENGTH: 13,
+                WIDTH: 8,
+                ASPECT: -2.2
+            }
+        }
+    ]
+};
+
+Class.disintegrator = {
+    PARENT: "genericTank",
+    LABEL: "Disintegrator",
+    DANGER: 6,
+    BODY: {
+        FOV: 1.375 * base.FOV
+    },
+    GUNS: [
+        {
+            POSITION: {
+                LENGTH: 27,
+                WIDTH: 8
+            },
+            PROPERTIES: {
+                SHOOT_SETTINGS: combineStats([g.basic, g.sniper, g.assassin]),
+                TYPE: "poison2bullet"
+            }
+        },
+        {
+            POSITION: {
+                LENGTH: 16,
+                WIDTH: 8
+            },
+            PROPERTIES: {
+                COLOR: "green"
+            }
+        },
+        {
+            POSITION: {
+                LENGTH: 13,
+                WIDTH: 8,
+                ASPECT: -2.2
             }
         }
     ]

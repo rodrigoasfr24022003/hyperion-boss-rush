@@ -127,8 +127,8 @@ module.exports = {
         return 0;
     },
 
-    level_cap: 45, // Maximum normally achievable level.
-    level_cap_cheat: 45, // Maximum level via the level-up key and auto-level-up.
+    level_cap: 60, // Maximum normally achievable level.
+    level_cap_cheat: 60, // Maximum level via the level-up key and auto-level-up.
 
     skill_cap: 9, // Default skill caps.
     skill_cap_soft: 0, // TODO: Figure out what this does.
@@ -137,7 +137,7 @@ module.exports = {
     // Bots
     bot_cap: 0, // Maximum number of bots that can be on the server. Set to 0 to disable bots.
     bot_xp_gain: 60, // How much XP bots get until they reach level_cap.
-    bot_start_level: 45, // How much XP bots will receive when first created.
+    bot_start_level: 60, // How much XP bots will receive when first created.
     bot_skill_upgrade_chances: [1, 1, 3, 4, 4, 4, 4, 2, 1, 1], // The chances of a bot upgrading a specific skill when skill upgrades are available.
     bot_class_upgrade_chances: [1, 5, 20, 37, 37], // The chances of a bot upgrading a specific amount of times before it stops upgrading.
     bot_name_prefix: "[AI] ", // This is prefixed before the bot's randomly chosen name.
