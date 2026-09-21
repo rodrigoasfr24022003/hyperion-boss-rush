@@ -104,7 +104,7 @@ Class.machineGun = {
             }
         }
     ],
-    UPGRADES_TIER_2: ["artillery", "minigun", "gunner", "sprayer"]
+    UPGRADES_TIER_2: ["artillery", "minigun", "gunner", "sprayer", "blaster", "gatlingGun"]
 };
 Class.pounder = {
     PARENT: "genericTank",
@@ -3835,6 +3835,44 @@ Class.xHunter = {
         }
     ]
 };
+/*
+Class.gatlingGun = {
+    PARENT: "genericTank",
+    LABEL: "Gatling Gun",
+    GUNS: [
+        {
+            POSITION: {
+                LENGTH: 16,
+                WIDTH: 10,
+                ASPECT: 1.3,
+                X: 8
+            },
+            PROPERTIES: {
+                SHOOT_SETTINGS: combineStats([g.basic, g.machineGun, g.gatlingGun]),
+                TYPE: "bullet"
+            }
+        }
+    ]
+};
+Class.blaster = {
+    PARENT: "genericTank",
+    LABEL: "Blaster",
+    GUNS: [
+        {
+            POSITION: {
+                LENGTH: 10,
+                WIDTH: 10,
+                ASPECT: 1.6,
+                X: 8
+            },
+            PROPERTIES: {
+                SHOOT_SETTINGS: combineStats([g.basic, g.machineGun, g.blaster]),
+                TYPE: "bullet"
+            }
+        }
+    ]
+};
+*/
 
 // Class Tree Modification
 if (Config.teams == 1) {
