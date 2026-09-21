@@ -9,5 +9,7 @@ module.exports = {
     food_cap_nest: 5,
     room_setup: ["room_hyperion_boss_rush"],
     sanctuary_size: 15,
-    bot_xp_gain: 500
+    bot_xp_gain: 500,
+    enable_food: false,
+    enable_bosses: false
 }
