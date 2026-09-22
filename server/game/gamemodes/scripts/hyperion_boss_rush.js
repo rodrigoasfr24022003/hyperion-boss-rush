@@ -8,7 +8,8 @@ class HyperionBossRush  {
         ["hyperion_mk1r","hyperion_mk1g","hyperion_mk1b"],
         [[6,"hyperion_mk1f"]],
         [[2,"hyperion_mk1r"],[2,"hyperion_mk1g"],[2,"hyperion_mk1b"]],
-        [[4,"not_crius_mk1"],[3,"hyperion_mk1r"]]];
+        [[4,"not_crius_mk1"],[3,"hyperion_mk1r"]]
+        [[12,"hyperion_mk0"]]];
     }
     defineProperties() {
         this.length = Config.wave_cap;
