@@ -55,5 +55,6 @@ server_travel: [
 
 > [!CAUTION]
 > If you end up making your own server, make sure to create your own .env file in the /server folder as it isn't in the repo for security reasons.
+> THE SERVER WILL CRASH ON STARTUP WITHOUT THE .env FILE THERE!
 
 *p.s. if something goes terribly wrong it's not mine nor the OSA devs' fault*
