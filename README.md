@@ -53,4 +53,7 @@ server_travel: [
 > [!WARNING]
 > There will be no public Hyperion Boss Rush server, this is only the source code so you can host it for yourself!
 
+> [!CAUTION]
+> If you end up making your own server, make sure to create your own .env file in the /server folder as it isn't in the repo for security reasons.
+
 *p.s. if something goes terribly wrong it's not mine nor the OSA devs' fault*
