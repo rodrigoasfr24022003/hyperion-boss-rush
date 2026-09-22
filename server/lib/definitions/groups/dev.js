@@ -24,7 +24,8 @@ Class.menu_special = makeMenu("Special Menu", {
         dreadnoughts,
         "menu_shinyMember",
         "menu_addons",
-        'menu_overexploitables'
+        'menu_overexploitables',
+        'menu_awps'
     ]
 });
 
