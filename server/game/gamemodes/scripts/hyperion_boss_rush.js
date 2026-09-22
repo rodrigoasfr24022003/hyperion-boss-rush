@@ -1,7 +1,7 @@
 class HyperionBossRush  {
     constructor() {
         this.room = global.gameManager.room;
-        this.waves = [ran.choose([["hyperion_mk0","hyperion_mk0"],["hyperion_mkhalf","hyperion_mk1"]]),
+        this.waves = [ran.choose([[[2,"hyperion_mk0"]],["hyperion_mkhalf","hyperion_mk1"]]),
         ["crius_mk1","not_crius_mk1"],
         ["orthogon_mk1",[2,"hyperion_mk0"]],
         [[2,"hyperion_mk1f"]],
@@ -9,7 +9,8 @@ class HyperionBossRush  {
         [[6,"hyperion_mk1f"]],
         [[2,"hyperion_mk1r"],[2,"hyperion_mk1g"],[2,"hyperion_mk1b"]],
         [[4,"not_crius_mk1"],[3,"hyperion_mk1r"]],
-        [[12,"hyperion_mk0"]]];
+        [[12,"hyperion_mk0"]],
+        ran.choose([[[1,"hyperion_mk2r"],[2,"hyperion_mk1r"]],[[3,"hyperion_mk1r"],[3,"hyperion_mk1g"],[3,"hyperion_mk1b"]]])];
     }
     defineProperties() {
         this.length = Config.wave_cap;
