@@ -392,7 +392,7 @@ class gameServer {
             spawnable: {},
             settings: {
                 sandbox: {
-                    do_not_change_arena_size: false
+                    do_not_change_arena_size: true
                 }
             },
         };
