@@ -78,7 +78,7 @@ Class.awp_sqrt_2_triangle_body_2 = {
     ],
     TURRETS: [{
         POSITION: [10, 0, 0, 180, 60, 1],
-        TYPE: "autoTurret"
+        TYPE: ["autoTurret", {INDEPENDENT: true}]
     }]
 }
 
