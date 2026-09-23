@@ -62,7 +62,7 @@ module.exports = {
             share_client_server: false,
             host: 'localhost:3005',
             port: 3005,
-            id: 'hbrt',
+            id: 'hbr',
 
             region: "Local",
             serverhost: "Local",
