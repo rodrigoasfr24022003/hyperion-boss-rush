@@ -921,5 +921,21 @@ module.exports = {
     faster: {
        speed: 1.1,
        maxSpeed: 1.1
+    },
+    // Woomy
+    borer: {
+        reload: 1.2,
+        recoil: 1,
+        shudder: 0.7,
+        size: 1,
+        health: 1,
+        damage: 1.05,
+        pen: 1,
+        speed: 1.375,
+        maxSpeed: 1.35,
+        range: 1,
+        density: 1,
+        spray: 0.7,
+        resist: 1
     }
 };
