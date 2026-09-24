@@ -917,5 +917,9 @@ module.exports = {
     },
     doubleReload: {
         reload: 0.5
+    },
+    faster: {
+       speed: 1.1,
+       maxSpeed: 1.1
     }
 };
