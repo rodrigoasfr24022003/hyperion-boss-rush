@@ -10,7 +10,7 @@ class HyperionBossRush  {
         [[2,"hyperion_mk1r"],[2,"hyperion_mk1g"],[2,"hyperion_mk1b"]],
         [[4,"not_crius_mk1"],[3,"hyperion_mk1r"]],
         [[12,"hyperion_mk0"]],
-        ran.choose([[[1,"hyperion_mk2b"],[2,"hyperion_mk1b"]],[[1,"hyperion_mk2r"],[2,"hyperion_mk1r"]],[[3,"hyperion_mk1r"],[3,"hyperion_mk1g"],[3,"hyperion_mk1b"]]])];
+        ran.choose([[[1,"hyperion_mk2r"],[2,"hyperion_mk1r"]],[[1,"hyperion_mk2g"],[2,"hyperion_mk1g"]],[[1,"hyperion_mk2b"],[2,"hyperion_mk1b"]],[[3,"hyperion_mk1r"],[3,"hyperion_mk1g"],[3,"hyperion_mk1b"]]])];
     }
     defineProperties() {
         this.length = Config.wave_cap;
