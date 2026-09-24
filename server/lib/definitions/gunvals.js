@@ -924,7 +924,7 @@ module.exports = {
     },
     // Woomy
     borer: {
-        reload: 1.2,
+        reload: 1 / 1.2,
         recoil: 1,
         shudder: 0.7,
         size: 1,
