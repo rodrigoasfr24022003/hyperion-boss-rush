@@ -11,7 +11,7 @@ class HyperionBossRush  {
         [[4,"not_crius_mk1"],[3,"hyperion_mk1r"]],
         ran.choose([[[12,"hyperion_mk0"]],[[2,"hyperion_mk2"]],[[6,"hyperion_mk1"]]]),
         ran.choose([[[1,"hyperion_mk2r"],[2,"hyperion_mk1r"]],[[1,"hyperion_mk2g"],[2,"hyperion_mk1g"]],[[1,"hyperion_mk2b"],[2,"hyperion_mk1b"]],[[3,"hyperion_mk1r"],[3,"hyperion_mk1g"],[3,"hyperion_mk1b"]]]),
-        [[4,"hyperion_mk2"],[3,"hyperion_mk1"],[1,"not_crius_mk1a"]]
+        ran.choose([[[4,"hyperion_mk2"],[3,"hyperion_mk1"],[1,"not_crius_mk1a"]],[[2,"not_crius_mk1_cy_a"],[3,"not_crius_mk1_cy"],[2,"hyperion_mk1_cy"]]])
         ];
     }
     defineProperties() {
