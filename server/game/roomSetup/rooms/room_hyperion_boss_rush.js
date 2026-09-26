@@ -2,7 +2,7 @@ const {
     normal: ____, roid,
     base1: bas1,
     baseprotected1: bap1,
-    bossSpawn: boss
+    hbrBossSpawn: boss
 } = tileClass;  
 
 let room_hyperion_boss_rush = [
