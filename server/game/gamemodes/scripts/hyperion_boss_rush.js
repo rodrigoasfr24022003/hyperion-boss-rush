@@ -16,7 +16,7 @@ class HyperionBossRush  {
             [[6,"hyperion_mk0"],[6,"hyperion_mk0b"]],
             [[11,"hyperion_mk0"],[2,"hyperion_mk1"]],
             [[4,"crius_mk1"]],
-            [[4,"hyperion_mk1r"],[4,"hyperion_mk1g"],[4,"hyperion_mk1b"]]
+            ran.choose([[[4,"hyperion_mk1r"],[4,"hyperion_mk1g"],[4,"hyperion_mk1b"]],[[1,"hyperion_mk1b2"],[1,"hyperion_mk1g2"],[1,"hyperion_mk1r2"]]])
         ];
     }
     defineProperties() {
